@@ -34,20 +34,19 @@
 
 .card__body-price {
     font-size: 14px;
-    letter-spacing: 0.64px;
     color: #000000;
     margin: 8px 0px;
 }
 
 .card__body-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 16px;
 }
 
 .card__body-description {
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     color: #4b4b4b;
 }

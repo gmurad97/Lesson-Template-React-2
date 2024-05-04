@@ -19,8 +19,8 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-end;
-
+    align-items: center;
+    font-size: 14px;
 }
 
 .breadcrumb__item:is(:not(:last-of-type))::after {
@@ -37,12 +37,12 @@
 .breadcrumb__link {
     display: flex;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #9fbc2e;
     transition: color 128ms linear;
 }
 
-.breadcrumb__link:hover{
+.breadcrumb__link:hover {
     color: #798d21;
 }
 
